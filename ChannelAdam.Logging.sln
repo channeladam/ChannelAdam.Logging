@@ -7,8 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChannelAdam.Logging", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24FE34CB-F575-4B9A-AB9F-BC2B67E84F9B}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		GitVersion.yml = GitVersion.yml
+		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFDED34E-B7FE-4C02-B918-76C1F06BDA9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{415013EE-871F-4EC9-8CD5-7DAA3968BE7C} = {BFDED34E-B7FE-4C02-B918-76C1F06BDA9D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29C39BCF-6F0B-416A-B0EC-D8E28FB9C1D4}
