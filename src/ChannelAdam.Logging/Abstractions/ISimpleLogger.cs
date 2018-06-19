@@ -15,7 +15,7 @@
 // limitations under the License.
 //-----------------------------------------------------------------------
 
-namespace ChannelAdam.Logging
+namespace ChannelAdam.Logging.Abstractions
 {
     using System;
 

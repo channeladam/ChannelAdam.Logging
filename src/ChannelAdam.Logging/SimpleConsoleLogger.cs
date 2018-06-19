@@ -22,7 +22,7 @@ namespace ChannelAdam.Logging
     /// <summary>
     /// Writes a message out to the Console with a date/time prefix.
     /// </summary>
-    public class SimpleConsoleLogger : ChannelAdam.Logging.ISimpleLogger
+    public class SimpleConsoleLogger : ChannelAdam.Logging.Abstractions.ISimpleLogger
     {
         /// <summary>
         /// Writes the line.
