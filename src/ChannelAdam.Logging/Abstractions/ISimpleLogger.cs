@@ -38,6 +38,6 @@ namespace ChannelAdam.Logging.Abstractions
         /// </summary>
         /// <param name="messageFormat">The message format.</param>
         /// <param name="arguments">The argument list.</param>
-        void Log(string messageFormat, params object[] arguments);
+        void Log(string messageFormat, params object?[] arguments);
     }
 }

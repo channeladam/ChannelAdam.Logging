@@ -1,6 +1,6 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="SimpleConsoleLogger.cs">
-//     Copyright (c) 2014-2018 Adam Craven. All rights reserved.
+//     Copyright (c) 2014-2020 Adam Craven. All rights reserved.
 // </copyright>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,7 +29,7 @@ namespace ChannelAdam.Logging
         /// </summary>
         /// <param name="messageFormat">The message format.</param>
         /// <param name="arguments">The argument list for the message format.</param>
-        public void Log(string messageFormat, params object[] arguments)
+        public void Log(string messageFormat, params object?[] arguments)
         {
             Console.WriteLine(GetMessagePrefix() + messageFormat, arguments);
         }
